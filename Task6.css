@@ -1,0 +1,427 @@
+ body
+ {
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+ 
+ .image-background
+ {
+ 	background-image: url('pic7.jpg');
+ 	width: 100%;
+ 	height: 400px;
+ 	margin: 0px;
+ 	padding:0px ;
+   background-repeat: no-repeat;
+
+}
+.image-background .background-inner
+{
+ max-width: 80%;
+ margin: 0 auto;
+ align-items: center;
+ padding: 100px;
+}
+
+.image-heading-inner .image-heading-inner1
+{
+ text-align: center;
+ align-items: ;
+ margin: 0px;
+}
+.image-Des1-inner .image-Des1-inner1
+{
+ text-align: center;
+ color: white;
+}
+
+.image-buttons .image-buttons-inner
+{
+ text-align: center;
+  justify-content: center;
+ display: flex;
+ flex-wrap: wrap;
+}
+.image-button1 .image-button1-inner
+{
+ width: 100px;
+ background: white;
+ border: 2px solid black;
+ border-radius: 30px;
+ padding: 5px;
+ margin: 2px;
+ cursor: pointer;
+}
+.image-button2 .image-button2-inner
+{
+ width: 100px;
+ background: white;
+ border: 2px solid black;
+ border-radius: 30px;
+ padding: 5px;
+ margin: 2px;
+ cursor: pointer;
+}
+.main3
+{
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+}
+.main3 .main3-inner
+{
+ padding: 10px;
+ display: flex;
+ flex-wrap: wrap;
+}
+.main3-inner .main3-inner1 {
+  width: 50%;
+}
+.main3-inner1 .main3-inner1-inner
+{
+  width: ;
+  padding: 20px;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.main3-button-inner .main3-button-inner1
+{
+  background: white;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.main3-inner .main3-inner2  
+{
+ width: 50%;
+}
+.main3-inner2 .main3-inner2-inner
+{
+ padding: 15px;
+ margin: 10px;
+}
+
+.main3-image1-inner .main3-image1-inner1 {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.main3-inner .main3-inner3
+{
+   width: 50%;
+   display: flex;
+}
+.main3-inner3 .main3-inner3-inner 
+{
+ padding: 10px;
+ background: black;
+ color: white;
+ border-radius: 15px;
+ margin: 10px;
+ font-size: 20px;
+}
+.main3-heading-inner .main3-heading-inner1
+ {
+    font-size: 25px;
+}
+ 
+.main3-image2-inner .main3-image2-inner1
+{
+  width: 100%;
+  border-radius: 15px;
+}
+.main3-inner .main3-inner4
+{
+  width: 50%;
+  display: flex;
+}
+.main3-inner4 .main3-inner4-inner
+{
+ padding: 10px;
+ background: lightgreen;
+ color: black;
+ border-radius: 15px;
+ margin: 10px;
+}
+.main3-Des2-inner .main3-Des2-inner1 {
+    color: black;
+    font-family: arial;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+}
+.main3-image3-inner .main3-image3-inner1
+{
+  width: 100%;
+  border-radius: 15px;
+}
+.main3-button2-inner {
+    max-width: ;
+    margin-right: 0;
+}
+.main3-button2-inner .main3-button2-inner1 {
+    color: black;
+    background: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 26px;
+    cursor: pointer;
+}
+@media(max-width:780px)
+{
+   .image-background {
+    background-image: url('pic7.jpg');
+    width: 100%;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+}
+.image-background .background-inner {
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 70px;
+}
+.image-heading-inner .image-heading-inner1 {
+    text-align: center;
+    align-items: ;
+    margin: 0px;
+    color: white;
+    font-size: 25px;
+}
+.image-Des1-inner .image-Des1-inner1 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.image-button1 .image-button1-inner {
+    width: 95px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 4px;
+    margin: 2px;
+    cursor: pointer;
+}
+.image-button2 .image-button2-inner {
+    width: 95px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 4px;
+    margin: 2px;
+    cursor: pointer;
+}
+.main3-inner1 .main3-inner1-inner {
+     
+    padding: 15px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+}
+.main3-button-inner .main3-button-inner1 {
+    background: white;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.main3-image1-inner .main3-image1-inner1 {
+    border-radius: 15px;
+    width: 100%;
+}
+.main3-inner3 .main3-inner3-inner {
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 15px;
+}
+.main3-heading-inner .main3-heading-inner1 {
+    font-size: 20px;
+}
+.main3-inner .main3-inner4 {
+    width: 50%;
+    display: flex;
+}
+.main3-inner4 .main3-inner4-inner {
+    padding: 10px;
+    background: lightgreen;
+    color: black;
+    border-radius: 15px;
+    margin: 10px;
+}
+.main3-Des2-inner .main3-Des2-inner1 {
+    color: black;
+    font-family: arial;
+    font-size: 18px;
+    margin: 0px;
+    padding: 8px;
+}
+.main3-button2-inner .main3-button2-inner1 {
+    color: black;
+    background: white;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+}
+}
+@media (max-width:490px)
+{
+.image-background {
+    background-image: url('pic7.jpg');
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+}
+.image-background .background-inner {
+    max-width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 50px;
+}
+.image-heading-inner .image-heading-inner1 {
+    text-align: center;
+    align-items: ;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+}
+.image-Des1-inner .image-Des1-inner1 {
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+.image-buttons .image-buttons-inner {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-button1 .image-button1-inner {
+    width: 50px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.image-buttons .image-buttons-inner {
+    text-align: center;
+     }
+     .image-button2 .image-button2-inner {
+    width: 50px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.main3 .main3-inner {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main3-inner .main3-inner1 {
+    width: 100%;
+}
+.main3-inner1 .main3-inner1-inner {
+    padding: 5px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 15px;
+}
+h1.main3-title-inner1 {
+    font-size: 17px;
+    margin: 0px;
+}
+p.main3-Des-inner1 {
+    margin: 0px;
+    font-size: 10px;
+}
+.main3-button-inner .main3-button-inner1 {
+    background: white;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 10px;
+    margin: 5px;
+}
+.main3-inner .main3-inner2 {
+    width: 100%;
+}
+.main3-inner2 .main3-inner2-inner {
+    padding: 2px;
+    margin: 0px;
+}
+.main3-image1-inner .main3-image1-inner1 {
+    border-radius: 10px;
+    width: 100%;
+}
+.main3-inner .main3-inner3 {
+    width: 100%;
+    display: flex;
+}
+.main3-inner3 .main3-inner3-inner {
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    margin: 0px;
+}
+.main3-heading-inner .main3-heading-inner1 {
+    font-size: 15px;
+    margin: 0px;
+    padding: 5px;
+}
+.main3-image2-inner .main3-image2-inner1 {
+    width: 100%;
+    border-radius: 5px;
+}
+.main3-inner .main3-inner4 {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 5px;
+}
+.main3-inner4 .main3-inner4-inner {
+    padding: 10px;
+    background: lightgreen;
+    color: black;
+    border-radius: 10px;
+    margin: 0px;
+}
+.main3-Des2-inner .main3-Des2-inner1 {
+    color: black;
+    font-family: arial;
+    font-size: 16px;
+    margin: 0px;
+    padding: 5px;
+}
+.main3-image3-inner .main3-image3-inner1 {
+    width: 100%;
+    border-radius: 5px;
+}
+.main3-button2-inner .main3-button2-inner1 {
+    color: black;
+    background: white;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 10px;
+}
+}
